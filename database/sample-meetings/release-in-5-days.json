@@ -1,0 +1,39 @@
+{
+  "_about": "What Fireflies already produces after a meeting (title, summary, transcript, action items with owner and spoken due date). Commitments imports this as-is; it does not run its own AI. Days are relative to the import date so the demo always works.",
+  "title": "Analytics Dashboard Release · Go/No-Go Planning",
+  "team": "product",
+  "series": "release-sync",
+  "date": "today",
+  "start_time": "11:00",
+  "duration_mins": 34,
+  "participants": ["Rohan Mehta", "Priya Sharma", "Arjun Nair", "Neha Kapoor", "James Carter"],
+  "summary": {
+    "overview": [
+      "The analytics dashboard release goes out in <b>5 days</b>.",
+      "Two UI bugs on the filters panel are still open; tablet and mobile regression can only start after they are fixed.",
+      "API load testing at peak traffic and customer release notes are needed before go-live.",
+      "Go/no-go call with pilot customers the day before release, after regression passes.",
+      "Updating the status page on release day was raised but <b>no one took it</b>."
+    ],
+    "keywords": ["release", "analytics dashboard", "regression", "go/no-go", "status page"]
+  },
+  "sentences": [
+    { "time": "00:12", "speaker_name": "Rohan Mehta", "text": "Okay team, the analytics dashboard release goes out in 5 days. Let us lock who owns what today." },
+    { "time": "01:05", "speaker_name": "Arjun Nair", "text": "Two UI bugs are still open on the filters panel. I will fix the dashboard UI issues <mark>by tomorrow</mark>." },
+    { "time": "02:20", "speaker_name": "Neha Kapoor", "text": "Once Arjun's UI fixes are in, I will run the tablet and mobile regression <mark>in 2 days</mark>." },
+    { "time": "03:41", "speaker_name": "Priya Sharma", "text": "The API is fine at normal load but I have not tested peak traffic. I will complete the API load testing <mark>in 3 days</mark>." },
+    { "time": "05:02", "speaker_name": "James Carter", "text": "Customers will ask what changed. I will prepare the customer release notes <mark>in 3 days</mark>." },
+    { "time": "06:30", "speaker_name": "Rohan Mehta", "text": "After Neha's regression passes, I will run the go/no-go call with our pilot customers <mark>in 4 days</mark>, the day before release." },
+    { "time": "07:15", "speaker_name": "Priya Sharma", "text": "Someone should update the status page <mark>on release day</mark>, we forgot last time." },
+    { "time": "08:02", "speaker_name": "Rohan Mehta", "text": "Good point. And I will push the release itself <mark>in 5 days</mark> if the go/no-go is a yes." }
+  ],
+  "action_items": [
+    { "text": "Fix dashboard UI issues on the filters panel", "owner": "Arjun Nair", "due_said": "by tomorrow", "due_in_days": 1, "depends_on": null, "sentence": 1 },
+    { "text": "Run tablet and mobile regression", "owner": "Neha Kapoor", "due_said": "in 2 days", "due_in_days": 2, "depends_on": 0, "sentence": 2 },
+    { "text": "Complete API load testing", "owner": "Priya Sharma", "due_said": "in 3 days", "due_in_days": 3, "depends_on": null, "sentence": 3 },
+    { "text": "Prepare customer release notes", "owner": "James Carter", "due_said": "in 3 days", "due_in_days": 3, "depends_on": null, "sentence": 4 },
+    { "text": "Run go/no-go call with pilot customers", "owner": "Rohan Mehta", "due_said": "in 4 days", "due_in_days": 4, "depends_on": 1, "sentence": 5 },
+    { "text": "Update the status page on release day", "owner": null, "due_said": "on release day", "due_in_days": 5, "depends_on": null, "sentence": 6 },
+    { "text": "Push the analytics dashboard release", "owner": "Rohan Mehta", "due_said": "in 5 days", "due_in_days": 5, "depends_on": 4, "sentence": 7 }
+  ]
+}

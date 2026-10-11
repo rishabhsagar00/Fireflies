@@ -1,0 +1,36 @@
+{
+  "_about": "The next meeting of the release-sync series, as Fireflies produces it after the call (title, summary, transcript, action items). Imported when the meeting ends in the demo. Days are relative to the import date.",
+  "title": "Analytics Dashboard Release · Release Check-in",
+  "team": "product",
+  "series": "release-sync",
+  "date": "today",
+  "start_time": "11:00",
+  "duration_mins": 28,
+  "participants": ["Rohan Mehta", "Priya Sharma", "Arjun Nair", "Neha Kapoor", "James Carter"],
+  "summary": {
+    "overview": [
+      "Fred's status at the start: the filters-panel UI fixes are done; regression and load testing are still open.",
+      "The release stays on track. The team agreed it needs a <b>rollback runbook</b> and <b>release-day monitoring alerts</b> before go-live.",
+      "Neha will re-run the tablet regression on the final build once the monitoring alerts are in place.",
+      "James will send the customer announcement email the day before release.",
+      "Booking the war room for release day was raised but <b>no one took it</b>."
+    ],
+    "keywords": ["release", "rollback", "monitoring", "announcement", "war room"]
+  },
+  "sentences": [
+    { "time": "00:20", "speaker_name": "Rohan Mehta", "text": "Thanks Fred for the status. The UI fixes are done, so let us close the gaps before release." },
+    { "time": "02:10", "speaker_name": "Arjun Nair", "text": "We have no alerts for the new dashboard yet. I will set up the release-day monitoring alerts <mark>by tomorrow</mark>." },
+    { "time": "03:45", "speaker_name": "Priya Sharma", "text": "If load testing shows problems we need a way back. I will write the rollback runbook <mark>in 2 days</mark>." },
+    { "time": "05:30", "speaker_name": "Neha Kapoor", "text": "Once Arjun's alerts are live, I will re-run the tablet regression on the final build <mark>in 3 days</mark>." },
+    { "time": "07:05", "speaker_name": "James Carter", "text": "Customers should hear from us first. I will send the release announcement email <mark>in 4 days</mark>, the day before release." },
+    { "time": "08:40", "speaker_name": "Rohan Mehta", "text": "We also need the war room booked for release day <mark>in 3 days</mark>. Can someone pick that up?" },
+    { "time": "09:15", "speaker_name": "Rohan Mehta", "text": "Okay, Fireflies will send everyone their items. Thanks all." }
+  ],
+  "action_items": [
+    { "text": "Set up release-day monitoring alerts", "owner": "Arjun Nair", "due_said": "by tomorrow", "due_in_days": 1, "depends_on": null, "sentence": 1 },
+    { "text": "Write the rollback runbook", "owner": "Priya Sharma", "due_said": "in 2 days", "due_in_days": 2, "depends_on": null, "sentence": 2 },
+    { "text": "Re-run tablet regression on the final build", "owner": "Neha Kapoor", "due_said": "in 3 days", "due_in_days": 3, "depends_on": 0, "sentence": 3 },
+    { "text": "Send the release announcement email to customers", "owner": "James Carter", "due_said": "in 4 days", "due_in_days": 4, "depends_on": null, "sentence": 4 },
+    { "text": "Book the war room for release day", "owner": null, "due_said": "in 3 days", "due_in_days": 3, "depends_on": null, "sentence": 5 }
+  ]
+}
